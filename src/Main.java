@@ -12,16 +12,16 @@ public class Main {
 
      Pessoa pessoa1 = new Pessoa("Fred",
              IsoChronology.INSTANCE.date(1978,4,25),
-             Pessoa.Sexo.masculino, "fred@example.com");
+             Pessoa.Sexo.masculino, "fred@gmail.com");
         Pessoa pessoa2 = new Pessoa("Jane",
                 IsoChronology.INSTANCE.date(1960,4,30),
-                Pessoa.Sexo.feminino, "lucia@example.com");
+                Pessoa.Sexo.feminino, "lucia@terra.com");
         Pessoa pessoa3 = new Pessoa("Lucia",
                 IsoChronology.INSTANCE.date(1954,4,12),
-                Pessoa.Sexo.feminino, "lucia@example.com");
+                Pessoa.Sexo.feminino, "lucia@hotmail.com");
         Pessoa pessoa4 = new Pessoa("Bob",
                 IsoChronology.INSTANCE.date(1985,4,15),
-                Pessoa.Sexo.masculino, "bob@example.com");
+                Pessoa.Sexo.masculino, "bob@gmail.com");
 
         System.out.println("Nome: " + pessoa1.getNome() + "\n" +  "Genero: " + pessoa1.getGenero() + "\n" + "Idade: " + pessoa1.getIdade() + "\n"
                 + "Email: " + pessoa1.getEnderecoEmail() + "\n" +  "Data do Aniversário: " + pessoa1.getAniversario());
