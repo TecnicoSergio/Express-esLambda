@@ -33,6 +33,15 @@ public class Pessoa {
         System.out.println(nome + "," + this.getIdade());
     }
 
+    public void printPersonsWithinAgeRange(List<Pessoa> lista, int baixa, int alta){
+        for (Pessoa p: lista) {
+            if(baixa <= p.getIdade() && p.getIdade() < alta) {
+                p.impressora();
+            }
+        }
+
+    }
+
     public Sexo getGenero(){
         return genero;
     }

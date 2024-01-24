@@ -41,6 +41,17 @@ public class Main {
         System.out.println("Nome: " + pessoa4.getNome() + "\n" +  "Genero: " + pessoa4.getGenero() + "\n" +  "Idade: " + pessoa4.getIdade() + "\n"
                 + "Email: " + pessoa4.getEnderecoEmail() + "\n" +  "Data do Aniversário: " + pessoa4.getAniversario());
 
+        //chamando metodo
+        //pessoa1.impressora();
+
+
+        pessoa1.printPersonsWithinAgeRange(Pessoa.criarLista() , 123,  456);
+        
+
+
+
+
+
 
     }
 }
